@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-include_directories(Model)
+include_directories(Model)s
 include_directories(${CMAKE_SOURCE_DIR})
 
 add_executable(rubiks_cube_solver
